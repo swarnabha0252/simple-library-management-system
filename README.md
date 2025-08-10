@@ -9,6 +9,6 @@ This is a small, personal project built in Python. The goal was to practice Obje
 
 ### How to Use
 1. Make sure you have Python 3 installed.
-2. Run the `library_system.py` file from your terminal:
+2. Run the `library_management.py` file from your terminal:
    ```bash
-   python library_system.py
+   python library_management.py
