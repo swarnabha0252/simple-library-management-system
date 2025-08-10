@@ -16,5 +16,5 @@ This is a small, personal project built in Python. The goal was to practice Obje
 ### What I Learned
 - Creating and using classes (Book, Member, Library).
 - Using dictionaries for efficient data storage.
-- String Manipulation: How to use methods like `.upper()`, `.split()`, and f-strings to process and format user input and output.
+- Using methods like `.upper()`, `.split()`, and f-strings to process and format user input and output (string manipulation).
 - The basics of building a simple command-line interface with a menu.
