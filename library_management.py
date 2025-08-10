@@ -7,11 +7,11 @@ class Book:
     self.isbn = isbn
     self.is_available = True
 
-  def check_out(self):
+  def check_out(self): #change the status of books
     if self.is_available:
       self.is_available = False
 
-  def check_in(self):
+  def check_in(self): #change the status of books
     if not self.is_available:
       self.is_available = True
 
@@ -35,7 +35,7 @@ class Member:
   def return_book(self, book_object):
     self.borrowed_books.remove(book_object)
 
-  def display_borrowed_books(self):
+  def display_borrowed_books(self): # displaying the books borrowed by a particular member
     print("\nThe list of borrowed books:")
     print("---------------------------")
 
